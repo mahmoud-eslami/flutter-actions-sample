@@ -2,7 +2,7 @@ name: Android Release
 
 on:
   push:
-    branches: ["main","feature/add-init-actions"]
+    branches: ["main","feature/add-initial-actions"]
   pull_request:
     branches: ["main"]
 
