@@ -29,5 +29,8 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Run Tests
+        run: flutter test
+
       - name: Start release build
         run: flutter build appbundle
